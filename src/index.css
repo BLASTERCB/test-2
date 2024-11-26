@@ -1,0 +1,19 @@
+/* src/index.css */
+/* Add the Tailwind's base, components, and utilities styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MercurySSm';
+  src: url('./assests/fonts/MercurySSm-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DecimalMedium';
+  src: url('./assests/fonts/decimal-medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
