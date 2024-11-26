@@ -13,33 +13,33 @@ const App = () => {
       <div className='flex h-20 justify-center items-center text-blue border-b-[1px] border-blue2'>
         <h1 className='text-[19px] uppercase text-blue1'>THE WHITE HOUSE</h1>
       </div>
-      <div className='fixed w-[44px] h-[60px] bg-blue2 rounded-r-md bottom-[100px] text-white justify-center items-center flex text-2xl'><FaArrowUpLong /></div>
-      <div className='fixed w-[44px] h-[160px] bg-blue3 rounded-l-md right-0 bottom-[270px] text-blue2 gap-7 justify-center items-center flex flex-col text-xl'><FaFacebookF /><RiTwitterXFill /><FaLink />
+      <div className='fixed w-0 md:w-[44px] md:h-[60px] bg-blue2 rounded-r-md bottom-[100px] text-white justify-center items-center flex text-2xl border-[1px] border-white'><FaArrowUpLong /></div>
+      <div className='fixed h-0 md:w-[44px] md:h-[160px] bg-blue3 rounded-l-md right-0 bottom-[270px] text-blue2 gap-7 justify-center items-center flex flex-col text-xl'><FaFacebookF /><RiTwitterXFill /><FaLink />
       </div>
-      <div className='flex justify-end mx-20 my-2'> <div className='justify-end bg-red-100 rounded-full p-2'><CiSearch /></div></div>
-      <div className='mx-[270px] '>
+      <div className='flex justify-end mx-5 md:mx-20 my-2'> <div className='justify-end bg-red-100 rounded-full p-2'><CiSearch /></div></div>
+      <div className='mx-0 md:mx-5 lg:mx-[250px] '>
         <header className='text-center mb-[50px]'>
           <p className='text-[11px] mb-2 text-blue1'>AUGUST 19, 2022</p>
-          <h1 className='text-[44px] text-blue1 text-center font-medium leading-[55px]'>FACT SHEET: How the Inflation Reduction Act Helps Asian American, Native Hawaiian, and Pacific Islander Communities</h1>
+          <h1 className='text-xl md:text-[44px] text-blue1 text-center font-medium   md:leading-[55px]'>FACT SHEET: How the Inflation Reduction Act Helps Asian American, Native Hawaiian, and Pacific Islander Communities</h1>
           <div className=' flex items-center justify-center'>
-            <div className="flex w-[70%] gap-3 border-b-2 border-t-2 border-gray1 px-5 py-2 mt-5 items-center justify-center">
-              <div className="w-[36px] h-[20px] flex items-center justify-center">
+            <div className="flex w-[70%] gap-2 md:gap-3 border-b-2 border-t-2 border-gray1 md:px-5 py-2 mt-5 items-center justify-center">
+              <div className="w-[30px] h-[20px] md:w-[36px] md:h-[20px] flex items-center justify-center">
                 <img src="whiteHouse.JPG" alt="White House" />
               </div>
               <div className="flex items-center"><IoMdArrowDropright aria-label="Arrow Right" /></div>
               <div className="flex items-center ">
-                <p className="text-blue2 text-[12px] font-decimal ">BRIEFING ROOM</p>
+                <p className="text-blue2 text-[10px] md:text-[12px] font-decimal ">BRIEFING ROOM</p>
               </div>
               <div className="flex items-center"><IoMdArrowDropright aria-label="Arrow Right" /></div>
               <div className="flex items-center">
-                <p className="text-blue2 text-[12px] font-decimal">STATEMENTS AND RELEASES</p>
+                <p className="text-blue2 text-[10px] md:text-[12px] font-decimal">STATEMENTS AND RELEASES</p>
               </div>
             </div>
           </div>
 
         </header>
 
-        <div className='mx-[60px]'>
+        <div className='mx-5 md:mx-10 lg:mx-[60px]'>
           <div class="introduction">
             <p className='text-blue1 text-base leading-8 font-normal'>By signing the Inflation Reduction Act, President Biden is delivering on his promise to build an economy that works for working families, including Asian American, Native Hawaiian, and Pacific Islander (AA and NHPI) families. The Inflation Reduction Act lowers prescription drug costs, health care costs, and energy costs. It’s the most aggressive action we have taken to confront the climate crisis. It’ll lower the deficit and ask the super wealthy and corporations to pay their fair share. And no one making under <span className='text-blue2'>$400,000 per year</span> will pay a penny more in taxes. </p>
             <p className='text-blue1 text-base leading-8 mt-6 font-normal '>President Biden and Congressional Democrats beat back the special interests to pass this historic legislation that lowers costs for Americans and their families, advances environmental justice while building a cleaner future, and grows the economy from the bottom up and the middle out.</p>
@@ -70,9 +70,9 @@ const App = () => {
         </div>
 
       </div>
-      <div className=' mx-5 px-[220px] py-10 text-center bg-blue2 hover:bg-blue1 rounded-lg my-5'>
-        <h2 className='text-white leading-[40px] text-3xl'>FACT SHEET: The Inflation Reduction Act Supports Workers and Families</h2>
-        <div className='flex text-center justify-center items-center gap-2 text-white text-sm my-5'>
+      <div className=' mx-5 px-5 md:px-[100px] lg:px-[220px] py-10 text-center bg-blue2 hover:bg-blue1 rounded-lg my-5'>
+        <h2 className='text-white leading-[40px] text-lg md:text-2xl lg:text-3xl'>FACT SHEET: The Inflation Reduction Act Supports Workers and Families</h2>
+        <div className='flex text-center justify-center items-center gap-2 text-white text-xs lg:text-sm my-5'>
           <p>AUGUST 19,2022</p>
           <GoDotFill />
           <p>STATEMENTS AND RELEASES</p>
